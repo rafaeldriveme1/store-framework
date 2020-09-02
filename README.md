@@ -79,6 +79,8 @@ vtex unlink
 
 ## Apps
 
+https://vtex.io/docs/components/all
+
 #### Ver apps instalados
 
 ```sh
