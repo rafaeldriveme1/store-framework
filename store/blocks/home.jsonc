@@ -1,8 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      "responsive-layout.desktop",
-      "responsive-layout.mobile",
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile",
       "flex-layout.row",
       "rich-text",
       "info-card#button-right",
@@ -23,13 +23,13 @@
       "image#major-appliance"
     ]
   },
-  "responsive-layout.desktop": {
+  "responsive-layout.desktop#desktop": {
     "children": [
       "rich-text#desktop",
       "image#desktop"
     ]
   },
-  "responsive-layout.mobile": {
+  "responsive-layout.mobile#mobile": {
     "children": [
       "rich-text#mobile",
       "image#mobile"
