@@ -11,6 +11,7 @@
       }
     },
     "menu-item#electronics": {
+        "children": ["vtex.menu@2.x:submenu#electronics"],
         "props": {
             "type": "custom",
             "highlight": false,
@@ -21,8 +22,7 @@
               "tagTitle": "Shop",
               "text": "Shop"
             }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#electronics"]
+        }
     },
     "menu-item#small-appliances": {
         "props": {
