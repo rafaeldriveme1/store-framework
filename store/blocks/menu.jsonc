@@ -22,7 +22,7 @@
               "text": "Shop"
             }
         },
-        "children": ["vtex.menu@2.x:submenu#electronics"]
+        "blocks": ["vtex.menu@2.x:submenu#electronics"]
     },
     "menu-item#small-appliances": {
         "props": {
@@ -36,7 +36,7 @@
               "text": "Shop"
             }
         },
-        "children": ["vtex.menu@2.x:submenu#small"]
+        "blocks": ["vtex.menu@2.x:submenu#small"]
     },
     "menu-item#major-appliances": {
         "props": {
@@ -50,7 +50,7 @@
               "text": "Shop"
             }
         },
-        "children": ["vtex.menu@2.x:submenu#major"]
+        "blocks": ["vtex.menu@2.x:submenu#major"]
     },
     "vtex.menu@2.x:submenu#major":{
         "children":[
@@ -64,8 +64,14 @@
     },
     "vtex.menu@2.x:submenu#electronics":{
         "children":[
-          "vtex.menu@2.x:menu#electronics"
-        ]
+            "menu-item#cameras",
+            "menu-item#laptops",
+            "menu-item#tvs"
+        ],
+
+        "props":{
+            "orientation": "vertical"
+        }
     },
     "vtex.menu@2.x:menu#major": {
         "children":[
