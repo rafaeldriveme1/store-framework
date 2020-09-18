@@ -2,7 +2,7 @@
     "store.custom#about-us": {
       "parent": {
         "header": "vtex.store-header",
-        "challenge": "challenge.profile",
+        // "challenge": "challenge.profile",
         "footer": "vtex.store-footer"
       },
       "blocks": [
