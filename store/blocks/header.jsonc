@@ -17,6 +17,13 @@
         "header-row#main"
       ]
     },
+    "header-row#notification": {
+        "children": [
+          "header-spacer",
+          "rich-text#header",
+          "header-spacer"
+        ]
+    },
     "header-row#main": {
         "children": [
             "logo",
@@ -30,13 +37,6 @@
             "inverted": true,
             "fullWidth": false
         }
-    },
-    "header-row#notification": {
-        "children": [
-          "header-spacer",
-          "rich-text#header",
-          "header-spacer"
-        ]
     },
     "header-row#main-mobile": {
         "children": [
