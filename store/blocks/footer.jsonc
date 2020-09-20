@@ -35,12 +35,14 @@
             { "url": "https://facebook.com/foo", "name": "Facebook" },
             { "url": "https://facebook.com/foo", "name": "Instagram" },
             { "url": "https://twitter.com/foo", "name": "Twitter" }
-          ]
+          ],
+          "showInColor": true
         }
     },
     "accepted-payment-methods": {
         "props": {
-          "paymentMethods": ["mastercard", "visa", "diners club"]
+          "paymentMethods": ["mastercard", "visa", "diners club"],
+          "showInColor": true
         }
     }
 }
